@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth bg-black">
 <head>
-    <style>
-    /* Default state: Hide everything */
-    body {
-        display: none;
-    }
+    
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -318,26 +314,6 @@
             <p>&copy; 2025 Formula Manipal. All Rights Reserved.</p>
         </div>
     </footer>
-<script>
-    (function() {
-        // Set your password here
-        var accessCode = "FM2025"; 
-        
-        // The browser alert window
-        var input = prompt("Authentication Required.\nEnter System Access Code:");
-        
-        // Check password
-        if (input === accessCode) {
-            // If correct, show the site
-            document.body.style.display = "block";
-            // Optional: Save to session so they don't have to re-enter on refresh
-            sessionStorage.setItem('authenticated', 'true');
-        } else {
-            // If wrong, reload the page (infinite loop until correct)
-            alert("ACCESS DENIED: Invalid Credentials.");
-            location.reload();
-        }
-    })();
-</script>
+
 </body>
 </html>
